@@ -1,0 +1,61 @@
+{% include 'sitio/cabecera.html' %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            First Column
+        </div>
+        <div class="col-6">
+            Second Column
+            <div id="carouselId" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="https://larepublica.cronosmedia.glr.pe/original/2021/02/05/601d58d3178f6c4a5e3397c5.jpg" class="d-block w-100" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://as01.epimg.net/meristation/imagenes/2020/03/16/avances/1584344280_436438_1584353649_noticia_normal.jpg" class="d-block w-100" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://as01.epimg.net/meristation/imagenes/2021/01/11/noticias/1610398726_136890_1610401257_noticia_normal.jpg" class="w-100 d-block" alt="Third slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-3">
+            tercera Column
+        </div>
+        
+        <div class="dropdown open">
+            <a class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="true">
+                        Seleccionar juegandro
+                    </a>
+            <div class="dropdown-menu" aria-labelledby="triggerId">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Disabled action</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+seccion juego
+
+{% include 'sitio/pie.html' %}
